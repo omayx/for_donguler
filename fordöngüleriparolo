@@ -1,0 +1,12 @@
+while 1:
+    password =input("Parolanız sadece rakamlardan oluşabilir ve içerisinde 0 olmamalıdır.\n Lütfen parola giriniz:")
+
+    if "0" in password:
+        print("Parola 0 içeremez.")
+        continue
+    elif not password.isnumeric():
+        print("Sadece rakam kullanılabilir")
+        continue
+    else :
+        print("Üyelik tamamlandı")
+        break
